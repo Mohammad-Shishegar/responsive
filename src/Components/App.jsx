@@ -10,14 +10,12 @@ class App extends Component {
         return ( 
         <div>
             <h1>Mohammad</h1>
-            {/* <main>
                 <Switch>
-                    <Route path = {"/band"} component = {Band}/>
-                    <Route path = {"/dark"} component = {Dark}/>
-                    <Route path = {"/profile"} component = {Profile}/>
-                    <Redirect exact from = {"/"} to = {"/band"}/>
-                </Switch>
-            </main> */}
+                <Route path = {"/band"} component = {Band}/>
+                <Route path = {"/dark"} component = {Dark}/>
+                <Route path = {"/profile"} component = {Profile}/>
+                <Redirect exact from = {"https://mohammad-shishegar.github.io/responsive/"} to = {"/band"}/>
+            </Switch>
         </div>
         )
     }

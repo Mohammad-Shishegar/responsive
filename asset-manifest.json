@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/responsive/static/css/main.459e91d1.chunk.css",
+    "main.js": "/responsive/static/js/main.bd256b27.chunk.js",
+    "main.js.map": "/responsive/static/js/main.bd256b27.chunk.js.map",
+    "runtime-main.js": "/responsive/static/js/runtime-main.b3ef627b.js",
+    "runtime-main.js.map": "/responsive/static/js/runtime-main.b3ef627b.js.map",
+    "static/js/2.6220841a.chunk.js": "/responsive/static/js/2.6220841a.chunk.js",
+    "static/js/2.6220841a.chunk.js.map": "/responsive/static/js/2.6220841a.chunk.js.map",
+    "index.html": "/responsive/index.html",
+    "precache-manifest.ddb6b2c2cafc426b7da0b53f7cceb983.js": "/responsive/precache-manifest.ddb6b2c2cafc426b7da0b53f7cceb983.js",
+    "service-worker.js": "/responsive/service-worker.js",
+    "static/css/main.459e91d1.chunk.css.map": "/responsive/static/css/main.459e91d1.chunk.css.map",
+    "static/js/2.6220841a.chunk.js.LICENSE.txt": "/responsive/static/js/2.6220841a.chunk.js.LICENSE.txt",
+    "static/media/avatar_g2.jpg": "/responsive/static/media/avatar_g2.df5c7a4a.jpg",
+    "static/media/chef.jpg": "/responsive/static/media/chef.abf3e5bd.jpg",
+    "static/media/gondol.jpg": "/responsive/static/media/gondol.5397831e.jpg",
+    "static/media/lights.jpg": "/responsive/static/media/lights.5ae99eaa.jpg",
+    "static/media/man_smoke.jpg": "/responsive/static/media/man_smoke.56d0fbea.jpg",
+    "static/media/map.jpg": "/responsive/static/media/map.89702d61.jpg",
+    "static/media/mountains.jpg": "/responsive/static/media/mountains.60d77ba7.jpg",
+    "static/media/nature.jpg": "/responsive/static/media/nature.4c139500.jpg",
+    "static/media/newyork.jpg": "/responsive/static/media/newyork.9f16ce87.jpg",
+    "static/media/p1.jpg": "/responsive/static/media/p1.43598036.jpg",
+    "static/media/p2.jpg": "/responsive/static/media/p2.8efb2ccd.jpg",
+    "static/media/p3.jpg": "/responsive/static/media/p3.2d8a71ee.jpg",
+    "static/media/p6.jpg": "/responsive/static/media/p6.c88d58a3.jpg",
+    "static/media/paris.jpg": "/responsive/static/media/paris.cec24e47.jpg",
+    "static/media/band.css": "/responsive/static/media/pexels-photo-63703.2ccfdbb0.jpg",
+    "static/media/rocks.jpg": "/responsive/static/media/rocks.44d5624d.jpg",
+    "static/media/sailboat.jpg": "/responsive/static/media/sailboat.0c2bad64.jpg",
+    "static/media/sanfran.jpg": "/responsive/static/media/sanfran.f0140a2e.jpg",
+    "static/media/underwater.jpg": "/responsive/static/media/underwater.7d721c29.jpg",
+    "static/media/wedding (1).jpg": "/responsive/static/media/wedding (1).fe6ac03e.jpg",
+    "static/media/workshop.jpg": "/responsive/static/media/workshop.be4d5fb4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3ef627b.js",
+    "static/js/2.6220841a.chunk.js",
+    "static/css/main.459e91d1.chunk.css",
+    "static/js/main.bd256b27.chunk.js"
+  ]
+}

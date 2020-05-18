@@ -9,14 +9,15 @@ class App extends Component {
     render() {
         return ( 
         <div>
-            <main>
+            <h1>Mohammad</h1>
+            {/* <main>
                 <Switch>
                     <Route path = {"/band"} component = {Band}/>
                     <Route path = {"/dark"} component = {Dark}/>
                     <Route path = {"/profile"} component = {Profile}/>
                     <Redirect exact from = {"/"} to = {"/band"}/>
                 </Switch>
-            </main>
+            </main> */}
         </div>
         )
     }

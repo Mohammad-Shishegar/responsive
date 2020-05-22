@@ -136,14 +136,14 @@
     left: -350px;
     height: 750px;
     transition: 1s;
-    background-color: pink;
+    background-color: #90A3B6;
     position: fixed;
 }
 
 .p-right .menu .div-1 {
     width: 100%;
     height: 200px;
-    background-color: purple;
+    background-color: #566573;
 }
 
 .p-right .menu .div-1 img {
@@ -203,7 +203,7 @@
 }
 
 .p-right .menu .div-2 p:nth-child(2) {
-    color: #90A3B6;
+    color: #717D7E;
     font-size: 18px;
     margin-top: 20px;
     font-family: auto;

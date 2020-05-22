@@ -317,9 +317,11 @@
 }
 
 .input-1 {
-    padding: 15px;
-    margin-right: 5px;
+    width: 225px;
+    height: 50px;
     margin-top: 15px;
+    margin-right: 5px;
+    padding-left: 15px;
     font-size: 15px;
     color: #BBBCDD;
     border-radius: 6px;
@@ -327,9 +329,11 @@
 }
 
 .input-2 {
-    padding: 15px;
+    width: 225px;
+    height: 50px;
     margin-top: 15px;
     margin-right: 5px;
+    padding-left: 15px;
     color: #BBBCDD;
     border-radius: 6px;
     font-size: 15px;
@@ -337,9 +341,11 @@
 }
 
 .input-3 {
-    padding: 15px;
-    margin-right: 5px;
+    width: 225px;
+    height: 50px;
     margin-top: 15px;
+    margin-right: 5px;
+    padding-left: 15px;
     color: #BBBCDD;
     border-radius: 6px;
     font-size: 15px;

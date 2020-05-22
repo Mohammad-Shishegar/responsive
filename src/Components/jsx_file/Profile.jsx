@@ -1,12 +1,22 @@
 import React , {Component} from "react"
 import  "../Style/profile.css"
-import {FaThLarge , FaUser , FaEnvelope , FaGem , FaImage , FaPaintBrush , FaMapMarkedAlt , FaPhone, FaMarker, FaMapMarkerAlt, FaTelegramPlane} from "react-icons/fa"
+import {FaTimes , FaBars , FaThLarge , FaUser , FaEnvelope , FaGem , FaImage , FaPaintBrush , FaMapMarkedAlt , FaPhone, FaMarker, FaMapMarkerAlt, FaTelegramPlane} from "react-icons/fa"
 
 
 class Profile extends Component {
 
     handle_change = () => {
         this.props.history.push("/band")
+    }
+
+    handle_open_menu = () => {
+        var open_menu = document.getElementsByClassName("menu")[0]
+        open_menu.style.left = "0px"
+    }
+    
+    handle_close_menu = () => {
+        var close_menu = document.getElementsByClassName("menu")[0]
+        close_menu.style.left = "-350px"
     }
 
     render(){
@@ -35,8 +45,35 @@ class Profile extends Component {
                 {/* right */}
 
                 <div className = "p-right">
-                    <div className = "header"></div>
-                    <div className = "menu"></div>
+                    <div className = "header">
+                        <div>
+                            <FaBars className = "menu-icon" onClick = {() => {this.handle_open_menu()}}/>
+                        </div>
+                        <div>
+                            <img src={require("../../Image/Profile/avatar_g2.jpg")} alt=""/>
+                        </div>
+                    </div>
+                    <div className = "menu">
+                       <div className = "div-1">
+                            <img src={require("../../Image/Profile/avatar_g2.jpg")} alt=""/>
+                            <FaTimes className = "menu-close" onClick = {() => {this.handle_close_menu()}}/>
+                        </div> 
+                       <div  className = "div-2">
+                            <p>Portfolio</p>
+                            <p>Template by W3 CSS</p>
+                            <div>
+                                <a href="#" className = "active">
+                                    <p> <FaThLarge className = "icon-1"/> Portfolio</p>
+                                </a>
+                                <a href="#">
+                                    <p> <FaUser className = "icon-1" /> About</p>
+                                </a>
+                                <a href = "#" >
+                                    <p> <FaEnvelope className = "icon-1" /> Contact</p>
+                                </a>
+                            </div>
+                        </div> 
+                    </div>
                     <div className = "header-2">
                         <div className = "div-1">
                             <p>My Portfolio</p>
@@ -47,7 +84,6 @@ class Profile extends Component {
                             <button> <FaGem className = "icon"/> Design</button>
                             <button> <FaImage className = "icon"/> Photos</button>
                             <button> <FaPaintBrush className = "icon"/> Art</button>
-                            <span></span>
                         </div>
                     </div>
 
@@ -205,7 +241,6 @@ class Profile extends Component {
                                 <p>512312311</p>
                             </div>
                         </div>
-                        <span></span>
                         <p>Name</p>
                         <input type="text"/>
                         <p>Email</p>

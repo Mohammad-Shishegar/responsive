@@ -5,7 +5,7 @@ import {FaHome , FaUser , FaEye , FaEnvelope , FaMapMarkerAlt , FaPhone } from "
 class Dark extends Component{
 
     handle_change = () => {
-        this.props.history.push("/profile")
+        this.props.history.push("/responsive/profile")
     }
 
     render(){
@@ -180,7 +180,17 @@ class Dark extends Component{
                             <input type="text" placeholder = "Email:"/>
                             <input type="text" placeholder = "Subject:"/>
                             <input type="text" placeholder = "Message:"/>
-                            <button onClick = {() => { this.handle_change() }}>Senad Message</button>
+                            <button>Send Message</button>
+                        </div>
+
+                        {/* next page */}
+
+                        <div className = "d-next-page center">
+                            <div class="outer button">
+                                <button onClick = {() => {this.handle_change()}}>Next Page</button>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </div>
 
                     </div>

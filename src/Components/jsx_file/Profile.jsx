@@ -6,7 +6,7 @@ import {FaTimes , FaBars , FaThLarge , FaUser , FaEnvelope , FaGem , FaImage , F
 class Profile extends Component {
 
     handle_change = () => {
-        this.props.history.push("/band")
+        this.props.history.push("/responsive/band")
     }
 
     handle_open_menu = () => {
@@ -275,6 +275,17 @@ class Profile extends Component {
                             </div>
                         </div>
                     </div>
+
+                    {/* next page */}
+
+                    <div className = "p-next-page center">
+                            <div class="outer button">
+                                <button onClick = {() => {this.handle_change()}}>Next Page</button>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
                 </div>
             </div>
         )

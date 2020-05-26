@@ -6,7 +6,7 @@ import {FaSearch , FaBars , FaMapMarkerAlt , FaPhone , FaEnvelope} from "react-i
 class Band extends Component{
 
     handle_change = () => {
-        this.props.history.push("/dark")
+        this.props.history.push("/responsive/dark")
     }
 
     handle_menu = () => {
@@ -127,6 +127,16 @@ class Band extends Component{
                 <div className ="section-5">
                     <img src={require("../../Image/Band/map.jpg")}/>
                 </div>
+                {/* next page */}
+
+                <div className = "b-next-page center">
+                    <div class="outer button">
+                        <button onClick = {() => {this.handle_change()}}>Next Page</button>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
             </div>
         )
     }

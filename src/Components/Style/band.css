@@ -379,6 +379,105 @@
     margin-top: 50px;
 }
 
+
+/* next-page */
+
+.b-next-page {
+    width: 100%;
+    height: 110px;
+    background-color: #000;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.outer {
+    margin: 0px 50px;
+    position: relative;
+    margin-bottom: 15px;
+    background: #111;
+}
+
+.button {
+    height: 70px;
+    width: 220px;
+    border-radius: 50px;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.outer button,
+.outer span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.outer button {
+    background: #222;
+    color: #f2f2f2;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+    z-index: 9;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button button {
+    height: 60px;
+    width: 210px;
+    border-radius: 50px;
+}
+
+.circle button {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.outer span {
+    height: 100%;
+    width: 100%;
+    background: inherit;
+}
+
+.button span {
+    border-radius: 50px;
+}
+
+.outer:hover span:nth-child(1) {
+    filter: blur(7px);
+}
+
+.outer:hover span:nth-child(2) {
+    filter: blur(14px);
+}
+
+.outer:hover {
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
 @media only screen and (max-width: 765px) {
     .header-left ul {
         display: none;

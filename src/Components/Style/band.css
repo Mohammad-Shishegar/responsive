@@ -388,41 +388,41 @@
     background-color: #000;
 }
 
-.center {
+.b-next-page .center {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
 
-.outer {
+.b-next-page .b-outer {
     margin: 0px 50px;
     position: relative;
     margin-bottom: 15px;
     background: #111;
 }
 
-.button {
+.b-next-page .button {
     height: 70px;
     width: 220px;
     border-radius: 50px;
 }
 
-.circle {
+.b-next-page .circle {
     height: 200px;
     width: 200px;
     border-radius: 50%;
 }
 
-.outer button,
-.outer span {
+.b-next-page .b-outer button,
+.b-next-page .b-outer span {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.outer button {
+.b-next-page .b-outer button {
     background: #222;
     color: #f2f2f2;
     outline: none;
@@ -434,37 +434,37 @@
     cursor: pointer;
 }
 
-.button button {
+.b-next-page .button button {
     height: 60px;
     width: 210px;
     border-radius: 50px;
 }
 
-.circle button {
+.b-next-page .circle button {
     height: 180px;
     width: 180px;
     border-radius: 50%;
 }
 
-.outer span {
+.b-next-page .b-outer span {
     height: 100%;
     width: 100%;
     background: inherit;
 }
 
-.button span {
+.b-next-page .button span {
     border-radius: 50px;
 }
 
-.outer:hover span:nth-child(1) {
+.b-next-page .b-outer:hover span:nth-child(1) {
     filter: blur(7px);
 }
 
-.outer:hover span:nth-child(2) {
+.b-next-page .b-outer:hover span:nth-child(2) {
     filter: blur(14px);
 }
 
-.outer:hover {
+.b-next-page .b-outer:hover {
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
 }

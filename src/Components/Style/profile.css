@@ -736,7 +736,7 @@
     text-align: center;
 }
 
-.outer {
+.p-outer {
     margin: 0px 50px;
     position: relative;
     margin-bottom: 5px;
@@ -755,15 +755,15 @@
     border-radius: 50%;
 }
 
-.outer button,
-.outer span {
+.p-outer button,
+.p-outer span {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.outer button {
+.p-outer button {
     background: #222;
     color: #f2f2f2;
     outline: none;
@@ -787,7 +787,7 @@
     border-radius: 50%;
 }
 
-.outer span {
+.p-outer span {
     height: 100%;
     width: 100%;
     background: inherit;
@@ -797,15 +797,15 @@
     border-radius: 50px;
 }
 
-.outer:hover span:nth-child(1) {
+.p-outer:hover span:nth-child(1) {
     filter: blur(7px);
 }
 
-.outer:hover span:nth-child(2) {
+.p-outer:hover span:nth-child(2) {
     filter: blur(14px);
 }
 
-.outer:hover {
+.p-outer:hover {
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
 }

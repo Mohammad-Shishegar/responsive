@@ -279,7 +279,7 @@ class Profile extends Component {
                     {/* next page */}
 
                     <div className = "p-next-page center">
-                            <div class="outer button">
+                            <div class="p-outer button">
                                 <button onClick = {() => {this.handle_change()}}>Next Page</button>
                                 <span></span>
                                 <span></span>

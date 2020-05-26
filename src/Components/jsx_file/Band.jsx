@@ -130,7 +130,7 @@ class Band extends Component{
                 {/* next page */}
 
                 <div className = "b-next-page center">
-                    <div class="outer button">
+                    <div class="b-outer button">
                         <button onClick = {() => {this.handle_change()}}>Next Page</button>
                         <span></span>
                         <span></span>

@@ -186,7 +186,7 @@ class Dark extends Component{
                         {/* next page */}
 
                         <div className = "d-next-page center">
-                            <div class="outer button">
+                            <div class="d-outer button">
                                 <button onClick = {() => {this.handle_change()}}>Next Page</button>
                                 <span></span>
                                 <span></span>

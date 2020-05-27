@@ -797,7 +797,8 @@
     border-radius: 50px;
 }
 
-.p-outer:hover span:nth-child(1) {
+
+/* .p-outer:hover span:nth-child(1) {
     filter: blur(7px);
 }
 
@@ -806,6 +807,19 @@
 }
 
 .p-outer:hover {
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1.5s linear infinite;
+} */
+
+.p-outer span:nth-child(1) {
+    filter: blur(7px);
+}
+
+.p-outer span:nth-child(2) {
+    filter: blur(14px);
+}
+
+.p-outer {
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
 }

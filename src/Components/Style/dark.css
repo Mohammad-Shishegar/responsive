@@ -758,6 +758,21 @@
     border-radius: 50px;
 }
 
+.d-outer span:nth-child(1) {
+    filter: blur(7px);
+}
+
+.d-outer span:nth-child(2) {
+    filter: blur(14px);
+}
+
+.d-outer {
+    background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1.5s linear infinite;
+}
+
+
+/* 
 .d-outer:hover span:nth-child(1) {
     filter: blur(7px);
 }
@@ -769,7 +784,7 @@
 .d-outer:hover {
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
-}
+} */
 
 @keyframes rotate {
     0% {

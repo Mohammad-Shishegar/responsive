@@ -779,6 +779,7 @@
     height: 60px;
     width: 210px;
     border-radius: 50px;
+    text-align: center;
 }
 
 .circle button {
@@ -822,6 +823,13 @@
 .p-outer {
     background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
     animation: rotate 1.5s linear infinite;
+}
+
+.p-next-icon {
+    width: 18px;
+    height: 18px;
+    padding-top: 2px;
+    color: #fff;
 }
 
 @keyframes rotate {

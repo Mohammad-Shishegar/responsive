@@ -456,6 +456,13 @@
     border-radius: 50px;
 }
 
+.b-next-icon {
+    width: 18px;
+    height: 18px;
+    padding-top: 2px;
+    color: #fff;
+}
+
 .b-next-page .b-outer span:nth-child(1) {
     filter: blur(7px);
 }

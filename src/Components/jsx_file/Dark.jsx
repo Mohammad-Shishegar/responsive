@@ -1,6 +1,6 @@
 import React , {Component} from "react"
 import "../Style/dark.css"
-import {FaHome , FaUser , FaEye , FaEnvelope , FaMapMarkerAlt , FaPhone } from "react-icons/fa"
+import {FaArrowRight , FaHome , FaUser , FaEye , FaEnvelope , FaMapMarkerAlt , FaPhone } from "react-icons/fa"
 
 class Dark extends Component{
 
@@ -66,15 +66,15 @@ class Dark extends Component{
                             <p className = "text-1">My Skills</p>
                             <p className = "text-2">Photographey</p>
                             <div className = "chart-1">
-                                <div>95</div>
+                                <div>95%</div>
                             </div>
                             <p className = "text-3">Web Design</p>
                             <div className = "chart-2">
-                                <div>80</div>
+                                <div>80%</div>
                             </div>
                             <p className = "text-4">Photoshop</p>
                             <div className = "chart-3">
-                                <div>75</div>
+                                <div>75%</div>
                             </div>
                         </div>
                         <div className = "information">
@@ -187,7 +187,7 @@ class Dark extends Component{
 
                         <div className = "d-next-page center">
                             <div class="d-outer button">
-                                <button onClick = {() => {this.handle_change()}}>Next Page</button>
+                                <button onClick = {() => {this.handle_change()}}>Next Page <FaArrowRight className = "d-next-icon"/></button>
                                 <span></span>
                                 <span></span>
                             </div>

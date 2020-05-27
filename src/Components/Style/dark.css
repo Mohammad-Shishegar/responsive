@@ -771,6 +771,13 @@
     animation: rotate 1.5s linear infinite;
 }
 
+.d-next-icon {
+    width: 18px;
+    height: 18px;
+    padding-top: 2px;
+    color: #fff;
+}
+
 
 /* 
 .d-outer:hover span:nth-child(1) {

@@ -1,6 +1,6 @@
 import React , {Component} from "react"
 import "../Style/band.css"
-import {FaSearch , FaBars , FaMapMarkerAlt , FaPhone , FaEnvelope} from "react-icons/fa"
+import {FaArrowRight , FaSearch , FaBars , FaMapMarkerAlt , FaPhone , FaEnvelope} from "react-icons/fa"
 
 
 class Band extends Component{
@@ -131,7 +131,7 @@ class Band extends Component{
 
                 <div className = "b-next-page center">
                     <div class="b-outer button">
-                        <button onClick = {() => {this.handle_change()}}>Next Page</button>
+                        <button onClick = {() => {this.handle_change()}}>Next Page <FaArrowRight className = "b-next-icon"/></button>
                         <span></span>
                         <span></span>
                     </div>

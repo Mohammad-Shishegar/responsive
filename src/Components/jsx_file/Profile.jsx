@@ -1,6 +1,6 @@
 import React , {Component} from "react"
 import  "../Style/profile.css"
-import {FaTimes , FaBars , FaThLarge , FaUser , FaEnvelope , FaGem , FaImage , FaPaintBrush , FaMapMarkedAlt , FaPhone, FaMarker, FaMapMarkerAlt, FaTelegramPlane} from "react-icons/fa"
+import {FaArrowRight , FaTimes , FaBars , FaThLarge , FaUser , FaEnvelope , FaGem , FaImage , FaPaintBrush , FaMapMarkedAlt , FaPhone, FaMarker, FaMapMarkerAlt, FaTelegramPlane} from "react-icons/fa"
 
 
 class Profile extends Component {
@@ -280,7 +280,7 @@ class Profile extends Component {
 
                     <div className = "p-next-page center">
                             <div class="p-outer button">
-                                <button onClick = {() => {this.handle_change()}}>Next Page</button>
+                                <button onClick = {() => {this.handle_change()}}>Next Page <FaArrowRight className = "p-next-icon"/></button>
                                 <span></span>
                                 <span></span>
                             </div>
